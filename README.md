@@ -2,9 +2,10 @@
 ## Github Actions Assignment
 
 ●	Create a Github repository for a simple web application using any web framework of your choice.
--->> comment
+        -->> comment
 -> ::> details
-((docs))
+\\ home text
+
 [(hello git actions)]
 
 ●	Create GH actions workflow. Your workflow must run on every push to the main branch and deploy the application to a cloud service (e.g., Heroku, Azure, AWS, or GCP). The workflow should have following jobs
@@ -20,4 +21,4 @@
 ""(this is the repo)""
 
 ●	Use public Github Actions runners.
-//here is the file
+/// here is the file
