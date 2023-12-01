@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 520
 
-ENTRYPOINT [ "python", app.py ]
+ENTRYPOINT [ "python", "app.py" ]
