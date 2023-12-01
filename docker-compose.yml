@@ -5,8 +5,8 @@ services:
     restart: on-failure
     networks:
       - frontend
-
+    ports:
+      - "520:512"
 networks:
   frontend:
     driver: bridge
-    ports: 520:512
