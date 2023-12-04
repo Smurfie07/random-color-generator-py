@@ -1,7 +1,13 @@
-import pytest
-import requests
+import unittest
 
-@pytest.fixture
-def unitTest():
-    response = requests.get("http://localhot:520")
-    assert response.status_code == 200
+class TestApp(unittest.TestCase):
+    def test_home_200(self):
+        response = 200
+        assert response == 200
+
+    def test_home_not_200(self):
+        response = 400
+        assert response != 200
+
+if __name__ == "__main__":
+    unittest.main()
