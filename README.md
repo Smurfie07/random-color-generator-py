@@ -12,14 +12,15 @@
 ![Alt text](image-1.png)
 
     ○	Build: for building the application
-        ![Alt text](image-2.png)
+![Alt text](image-2.png)
         
     ○	Test: for testing the application (Run unit test)
-        ![Alt text](image-3.png)
+![Alt text](image-3.png)
 
     ○	Deploy: for deploying the application to a cloud service
-        ![Alt text](image-4.png)
-        ![Alt text](image-5.png)
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)        
     
 ●	Your workflow should use environment variables to store sensitive data, such as API keys or database credentials.
     Heroku API key stored in GH secrets.
