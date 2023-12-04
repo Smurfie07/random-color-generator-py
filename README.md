@@ -15,12 +15,14 @@
         ![Alt text](image-2.png)
         
     ○	Test: for testing the application (Run unit test)
-    
+        ![Alt text](image-3.png)
+
     ○	Deploy: for deploying the application to a cloud service
     
     
 ●	Your workflow should use environment variables to store sensitive data, such as API keys or database credentials.
-""(this is the repo)""
+
+    
 
 ●	Use public Github Actions runners.
 /// here is the file
