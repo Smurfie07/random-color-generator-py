@@ -18,11 +18,15 @@
         ![Alt text](image-3.png)
 
     ○	Deploy: for deploying the application to a cloud service
-    
+        ![Alt text](image-4.png)
+        ![Alt text](image-5.png)
     
 ●	Your workflow should use environment variables to store sensitive data, such as API keys or database credentials.
-
+    Heroku API key stored in GH secrets.
     
 
 ●	Use public Github Actions runners.
-/// here is the file
+
+    Used third party Deploy-to-Heroku GH action-workflow
+
+    Repo link: https://github.com/Smurfie07/myDevOps-Pipelines.git
