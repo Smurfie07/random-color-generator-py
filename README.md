@@ -8,8 +8,12 @@
 
 ●	Create GH actions workflow. Your workflow must run on every push to the main branch and deploy the application to a cloud service (e.g., Heroku, Azure, AWS, or GCP). The workflow should have following jobs
 
+        On pushing the pipelines runs successfully
+![Alt text](image-1.png)
+
     ○	Build: for building the application
-    
+        ![Alt text](image-2.png)
+        
     ○	Test: for testing the application (Run unit test)
     
     ○	Deploy: for deploying the application to a cloud service
