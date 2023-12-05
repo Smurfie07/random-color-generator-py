@@ -4,4 +4,4 @@ ADD . /code
 
 WORKDIR /code
 
-ENTRYPOINT [ "python", "app.py" ]
+CMD [ "python", "app.py" ]
