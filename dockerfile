@@ -1,9 +1,7 @@
-FROM python:3.9.18-slim
+FROM continuumio/anaconda3:2021.05-amazonlinux
 
-COPY . .
+ADD . /code
 
-RUN pip install -r requirements.txt
-
-EXPOSE 520
+WORKDIR /code
 
 ENTRYPOINT [ "python", "app.py" ]
