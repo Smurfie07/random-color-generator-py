@@ -33,4 +33,5 @@ jobs:
         HEROKU_EMAIL: "saif.msrj@gmail.com"
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
-        git push heroku HEAD:main -f
+       git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/random-color-generator-py.git
+       git push heroku HEAD:main -f
