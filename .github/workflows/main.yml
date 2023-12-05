@@ -32,5 +32,4 @@ jobs:
         HEROKU_APP_NAME: random-color-generator-py
       if: github.ref == 'refs/heads/main' && job.status == 'success'
       run: |
-        git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/random-color-generator-py.git
         git push heroku HEAD:main -f
