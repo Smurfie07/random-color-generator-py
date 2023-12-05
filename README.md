@@ -1,5 +1,4 @@
 # myDevOps-Pipelines
-## Github Actions Assignment
 
 ●	Create a Github repository for a simple web application using any web framework of your choice.
 
